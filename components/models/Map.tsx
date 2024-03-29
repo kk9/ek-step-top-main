@@ -9,7 +9,7 @@ interface MapProps {
 }
 
 export function Map(props: MapProps) {
-  const { nodes, materials }: { nodes: any; materials: any } = useGLTF("/models/map.gltf");
+  const { nodes, materials }: { nodes: any; materials: any } = useGLTF("./models/map.gltf");
   applyProps(materials.wall, { color: "#D2B595" });
   applyProps(materials.water, { color: "#FFE5B4" });
   useEffect(() => {

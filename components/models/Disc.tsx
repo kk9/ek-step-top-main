@@ -8,7 +8,7 @@ export function Disc({ category }: { category: Category }) {
   const textureLodaer = new THREE.TextureLoader();
   const image = useMemo(() => textureLodaer.load(category.imageUrl), []);
   const nameImage = useMemo(() => textureLodaer.load(category.nameImageUrl), []);
-  const exploreText = useMemo(() => textureLodaer.load('/images/explore-text.png'),[]);
+  const exploreText = useMemo(() => textureLodaer.load('./images/explore-text.png'),[]);
   const toggleMenu = useCategoryStore((state) => state.toggleMenu);
   const setMenuCategory = useCategoryStore((state) => state.setMenuCategory);
   const introDone = useCategoryStore((state) => state.introDone);

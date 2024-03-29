@@ -20,8 +20,8 @@ const Logo = () => {
 
   const [logoMoved, setLogoMoved] = useState(false);
   useEffect(() => {
-    setAmbience(new Audio("/sounds/Ambience.mp3"));
-    const clickSound = new Audio("/sounds/click.wav");
+    setAmbience(new Audio("./sounds/Ambience.mp3"));
+    const clickSound = new Audio("./sounds/click.wav");
     clickSound.volume = 0.5;
     setTimeout(() => setLogoMoved(true), 4000);
     window.addEventListener("mousedown", () => clickSound.play());
