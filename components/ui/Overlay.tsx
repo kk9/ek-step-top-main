@@ -62,10 +62,10 @@ const Welcome = ({ forwardRef, logoRef, subLogoRef }: { forwardRef: React.RefObj
         </div>
       </div>
       <div  className="z-50 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2" ref={logoRef}>
-        <Image src="/logos/People+Logo.svg" alt="people+ logo" width={400} height={300} className="z-50 object-cover" />
+        <Image src="./logos/People+Logo.svg" alt="people+ logo" width={400} height={300} className="z-50 object-cover" />
       </div>
       <div className="z-50 absolute top-[52%] left-1/2 -translate-x-1/2 -translate-y-1/2" ref={subLogoRef}>
-        <Image src="/logos/TheatreOfPossibilities_Logo.svg" alt="people+ logo" width={700} height={300} className="z-50 object-cover" />
+        <Image src="./logos/TheatreOfPossibilities_Logo.svg" alt="people+ logo" width={700} height={300} className="z-50 object-cover" />
       </div>
     </>
   );
@@ -84,7 +84,7 @@ const BgImage = ({ forwardRef }: { forwardRef: React.RefObject<HTMLDivElement> }
   return (
     <div className="opacity-0" ref={forwardRef}>
       <Image
-        src="/images/Combined-01 1.png"
+        src="./images/Combined-01 1.png"
         alt="people+ logo"
         width={1200}
         height={300}
@@ -119,10 +119,10 @@ const Enter = ({
       >
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 h-2/3 rounded-full bg-white opacity-20"></div>
         <div className="absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2" onClick={() => callback()}>
-          <Image src="/icons/EnterButtonText-01.svg" alt="enter" width={100} height={300} className="object-cover animate-rotate " />
+          <Image src="./icons/EnterButtonText-01.svg" alt="enter" width={100} height={300} className="object-cover animate-rotate " />
         </div>
         <Image
-          src="/icons/ArrowIcon-01.svg"
+          src="./icons/ArrowIcon-01.svg"
           alt="enter"
           width={20}
           height={300}

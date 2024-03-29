@@ -15,14 +15,14 @@ const About = () => {
         <div>
           <div className="flex flex-col justify-center gap-1">
             <Image
-              src="/logos/People+Logo.svg"
+              src="./logos/People+Logo.svg"
               width={130}
               height={1}
               alt="ek step logo"
               className="object-cover z-10"
             />
             <Image
-              src="/logos/TheatreOfPossibilities_Logo.svg"
+              src="./logos/TheatreOfPossibilities_Logo.svg"
               width={200}
               height={100}
               alt="ek step logo"
