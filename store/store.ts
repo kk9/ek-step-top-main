@@ -31,11 +31,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
   categories: [
     {
       name: "Govt. Official",
-      imageUrl: "/images/ProfilePhotos_0000_Official.jpg",
-      nameImageUrl: "/images/Theatre_V4-12 (1).png",
+      imageUrl: "./images/ProfilePhotos_0000_Official.jpg",
+      nameImageUrl: "./images/Theatre_V4-12 (1).png",
       x: 1,
       y: 3,
-      personaImage: "/images/Pop Ups V2/GovtOfficial.jpg",
+      personaImage: "./images/Pop Ups V2/GovtOfficial.jpg",
       links: [
         { title: "IGOT KARMAYOGI - WEBSITE", url: "https://igotkarmayogi.gov.in/#/" },
         { title: "IGOT KARMAYOGI - DASHBOARD", url: "https://igotkarmayogi.gov.in/#/#dashboardAnalytics" },
@@ -45,11 +45,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
     },
     {
       name: "Blue Collar Worker",
-      imageUrl: "/images/ProfilePhotos_0001_Plumber.jpg",
-      nameImageUrl: "/images/Theatre_V4-12.png",
+      imageUrl: "./images/ProfilePhotos_0001_Plumber.jpg",
+      nameImageUrl: "./images/Theatre_V4-12.png",
       x: 2,
       y: 3,
-      personaImage: "/images/Pop Ups V2/BlueCollarWorker.jpg",
+      personaImage: "./images/Pop Ups V2/BlueCollarWorker.jpg",
       links: [
         { title: "ONEST LINK - HOME (ONEST.NETWORK)", url: "https://onest.network/index.php" },
         {
@@ -60,11 +60,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
     },
     {
       name: "Teacher",
-      imageUrl: "/images/ProfilePhotos_0002_Teacher.jpg",
-      nameImageUrl: "/images/Theatre_V4-15.png",
+      imageUrl: "./images/ProfilePhotos_0002_Teacher.jpg",
+      nameImageUrl: "./images/Theatre_V4-15.png",
       x: 1,
       y: 1,
-      personaImage: "/images/Pop Ups V2/Teacher.jpg",
+      personaImage: "./images/Pop Ups V2/Teacher.jpg",
       links: [
         { title: "SARAL APP DEMO", url: "https://youtu.be/tJFQn0Sm0rU" },
         {
@@ -80,11 +80,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
     },
     {
       name: "Farmer",
-      imageUrl: "/images/ProfilePhotos_0003_Farmer.jpg",
-      nameImageUrl: "/images/Theatre_V4-14.png",
+      imageUrl: "./images/ProfilePhotos_0003_Farmer.jpg",
+      nameImageUrl: "./images/Theatre_V4-14.png",
       x: 2,
       y: 2,
-      personaImage: "/images/Pop Ups V2/Farmer.jpg",
+      personaImage: "./images/Pop Ups V2/Farmer.jpg",
       links: [
         {
           title: "PM KISAN VIDEO",
@@ -97,11 +97,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
     },
     {
       name: "Parent",
-      imageUrl: "/images/ProfilePhotos_0004_Parents.jpg",
-      nameImageUrl: "/images/Theatre_V4-11.png",
+      imageUrl: "./images/ProfilePhotos_0004_Parents.jpg",
+      nameImageUrl: "./images/Theatre_V4-11.png",
       x: 3,
       y: 2,
-      personaImage: "/images/Pop Ups V2/Parent.jpg",
+      personaImage: "./images/Pop Ups V2/Parent.jpg",
       links: [
         {
           title: "NAMMA YATRI",
@@ -112,11 +112,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
     },
     {
       name: "HealthCare Worker",
-      imageUrl: "/images/ProfilePhotos_0005_Nurse.jpg",
-      nameImageUrl: "/images/Theatre_V4-09.png",
+      imageUrl: "./images/ProfilePhotos_0005_Nurse.jpg",
+      nameImageUrl: "./images/Theatre_V4-09.png",
       x: 1,
       y: 2,
-      personaImage: "/images/Pop Ups V2/HealthCareWorker.jpg",
+      personaImage: "./images/Pop Ups V2/HealthCareWorker.jpg",
       links: [
         { title: "ASTRIKA SPHERE", url: "https://sphere.aastrika.org/public/home" },
         {
@@ -134,11 +134,11 @@ const useCategoryStore = create<CategoryStore>((set) => ({
     },
     {
       name: "Student",
-      imageUrl: "/images/ProfilePhotos_0006_Student.jpg",
-      nameImageUrl: "/images/Theatre_V4-10.png",
+      imageUrl: "./images/ProfilePhotos_0006_Student.jpg",
+      nameImageUrl: "./images/Theatre_V4-10.png",
       x: 4,
       y: 1,
-      personaImage: "/images/Pop Ups V2/Student.jpg",
+      personaImage: "./images/Pop Ups V2/Student.jpg",
       links: [
         { title: "ETB", url: "https://drive.google.com/file/d/1s7i6PUpBwR-hc9pOOyK5tapmuhUJUtYJ/view?usp=sharing" },
         {
