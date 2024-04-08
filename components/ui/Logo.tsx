@@ -36,7 +36,6 @@ const Logo = () => {
        { logoMoved && 
       <div className="flex flex-col justify-center border-l border-white px-4 gap-1 animate-fadeIn ">
         <Image src="./logos/People+Logo.svg" width={100} height={1} alt="ek step logo" className="object-cover z-10" />
-        
       </div>
         }
     </div>
