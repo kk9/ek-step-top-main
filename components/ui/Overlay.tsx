@@ -64,9 +64,7 @@ const Welcome = ({ forwardRef, logoRef, subLogoRef }: { forwardRef: React.RefObj
       <div  className="z-50 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2" ref={logoRef}>
         <Image src="./logos/People+Logo.svg" alt="people+ logo" width={400} height={300} className="z-50 object-cover" />
       </div>
-      <div className="z-50 absolute top-[52%] left-1/2 -translate-x-1/2 -translate-y-1/2" ref={subLogoRef}>
-        <Image src="./logos/TheatreOfPossibilities_Logo.svg" alt="people+ logo" width={700} height={300} className="z-50 object-cover" />
-      </div>
+      
     </>
   );
 };
