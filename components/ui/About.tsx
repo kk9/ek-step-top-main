@@ -21,13 +21,7 @@ const About = () => {
               alt="ek step logo"
               className="object-cover z-10"
             />
-            <Image
-              src="./logos/TheatreOfPossibilities_Logo.svg"
-              width={200}
-              height={100}
-              alt="ek step logo"
-              className="object-cover z-10"
-            />
+           
           </div>
         </div>
         <div className="flex flex-col text-white text-2xl font-Rubik gap-6">
