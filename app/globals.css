@@ -13,3 +13,5 @@
   src: url('/fonts/AlbertSansFont/AlbertSans-Medium.ttf');
 }
 .mt-30{ margin-top: 30px;}
+.font-32{ font-size:32px;}
+.ml--10{ margin-left:-10px;}
