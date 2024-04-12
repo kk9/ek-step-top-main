@@ -53,7 +53,7 @@ const Details = ({ category }: { category: Category }) => {
 const DetaillLink = ({ title, url }: { title: string; url: string }) => {
   return (
     <Link href={url} target="_blank" className="h-full">
-      <div className="bg-[#E2D3C6] font-Rubik text-lg lg:text-2xl font-bold flex items-center justify-between text-[#511917] p-6 rounded-xl w-full h-full">
+      <div className="bg-[#E2D3C6] font-Rubik text-lg lg:text-xl font-bold flex items-center justify-between text-[#511917] p-6 rounded-xl w-full h-full">
         {title}
         <Image src={"./icons/PopUp-01.svg"} height={20} width={20} alt="open link" />
       </div>
