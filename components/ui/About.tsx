@@ -11,9 +11,9 @@ const About = () => {
   return (
     <div className="fixed top-0 left-0 overflow-y-scroll inset-0">
       <div className="p-40 w-screen h-auto static bg-brOverlay bg-opacity-80 flex flex-col gap-4">
-        <div className="opacity-80 text-[#ADA3A1] text-xl font-Rubik">ABOUT</div>
+        <div className="opacity-80 text-[#ADA3A1] font-32 font-Rubik">ABOUT</div>
         <div>
-          <div className="flex flex-col justify-center gap-1">
+          <div className="flex flex-col justify-center gap-1 ml--10">
             <Image
               src="./logos/People+Logo.svg"
               width={130}
@@ -36,7 +36,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="opacity-80 text-[#ADA3A1] text-xl font-Rubik mt-10 mb-5">TRANSFORMATION HEROES</div>
+        <div className="opacity-80 text-[#ADA3A1] font-32 font-Rubik mt-10 mb-5">TRANSFORMATION HEROES</div>
         <div className="flex flex-col gap-8">
           {categories.map((category, index) => (
             <div
