@@ -8,7 +8,7 @@ const Loading = () => {
         <Image src="./logos/EkStep_logo_v2.svg" width={120} height={100} alt="ek step logo" className="object-cover z-50" />
       </div>
       <div className="w-screen h-screen flex flex-col items-center justify-center around gap-4 z-50 absolute">
-        <div className="font-Rubik absolute top-40 right-1/2 translate-x-1/2 text-3xl z-10 opacity-50 text-white">
+        <div className="font-Rubik absolute top-40 right-[53%] translate-x-1/2 text-3xl z-10 opacity-50 text-white">
           WELCOME TO THE
         </div>
       </div>
