@@ -16,7 +16,7 @@ const Loading = () => {
         <Image src="./logos/People+Logo.svg" alt="people+ logo" width={400} height={300} className="z-50 object-cover" />
       </div>
 
-      <div className="text-white font-Albert absolute top-[70%] left-1/2 -translate-x-1/2 animate-pulse">
+      <div className="text-white font-Albert absolute top-[70%] right-[53%] -translate-x-1/2 animate-pulse">
         LOADING
       </div>
     </main>
