@@ -41,7 +41,7 @@ const About = () => {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="text-xl md:text-xl lg:text-xl text-white font-Rubik cursor-pointer"
+              className="text-2xl md:text-2xl lg:text-2xl text-white font-Rubik cursor-pointer"
               onClick={() => {
                 toggleMenu();
                 setCurrent(category.name);
