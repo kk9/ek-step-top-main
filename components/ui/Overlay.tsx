@@ -112,7 +112,7 @@ const Enter = ({
       </div>
       {/* enter button */}
       <div
-        className="opacity-0 rounded-full top-[80%] left-1/2 w-40 h-40 absolute -translate-y-1/2 -translate-x-1/2 hover:scale-110 cursor-pointer z-50 pointer-events-auto"
+        className="opacity-0 rounded-full top-[80%] left-1/2 w-40 h-40 absolute -translate-y-1/2 -translate-x-1/2 hover:scale-110 cursor-pointer z-50 pointer-events-auto mt-30"
         ref={enterBtnRef} onClick={() => callback()}
       >
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 h-2/3 rounded-full bg-white opacity-20"></div>
