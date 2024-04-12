@@ -57,11 +57,11 @@ const Welcome = ({ forwardRef, logoRef, subLogoRef }: { forwardRef: React.RefObj
   return (
     <>
       <div className="w-screen h-screen flex flex-col items-center justify-center around gap-4 z-50 absolute">
-        <div className="font-Rubik absolute top-40 right-[53%] translate-x-1/2 text-3xl z-10 opacity-50 mt-30" ref={forwardRef}>
+        <div className="font-Rubik absolute top-40 right-[53%] translate-x-1/2 text-3xl z-10 opacity-50" ref={forwardRef}>
           WELCOME TO THE
         </div>
       </div>
-      <div  className="z-50 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2" ref={logoRef}>
+      <div  className="z-50 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 mt-30" ref={logoRef}>
         <Image src="./logos/People+Logo.svg" alt="people+ logo" width={400} height={300} className="z-50 object-cover" />
       </div>
       
