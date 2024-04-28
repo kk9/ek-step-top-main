@@ -83,7 +83,7 @@ const BgImage = ({ forwardRef }: { forwardRef: React.RefObject<HTMLDivElement> }
   return (
     <div className="opacity-0" ref={forwardRef}>
       <Image
-        src="/images/Combined-01 1.png"
+        src="./images/Combined-01 1.png"
         alt="people+ logo"
         width={1200}
         height={300}
