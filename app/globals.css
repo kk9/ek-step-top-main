@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@tailwind store;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @font-face{
   font-family: "Rubik Regular";
   src: url('/fonts/RubikFont/Rubik-Regular.ttf');
@@ -18,3 +19,16 @@
 .p-6 {
     padding: 1.5rem;
 }
+.font-Rubik{font-family: "Rubik Regular", sans-serif!important; font-weight: normal;}
+
+@media (max-width: 640px) { 
+  .w90{ width: 90%;}
+.mb-l-1{ left: 1em;}
+.mb-r-1{ right: 1em;}
+.mob-wel-come{text-align: center;
+  top: 25%;
+  left: -50%;}
+  .mb-progress{ padding: 50px 10px;}
+  .mb-font{font-size: 0.700rem;}
+  .mb-design{ padding-left: 10px; padding-right: 10px;}
+ } 
