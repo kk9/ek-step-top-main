@@ -29,7 +29,7 @@ const Logo = () => {
 
   return (
     <div className="z-50">
-    <div className="flex absolute top-10 left-10 z-10 gap-4">
+    <div className="flex absolute top-10 left-10 z-10 gap-4 mb-l-1">
       <div>
         <Image src="./logos/EkStep_logo_v2.svg" width={120} height={100} alt="ek step logo" className="object-cover z-10 " />
       </div>
@@ -39,7 +39,7 @@ const Logo = () => {
       </div>
         }
     </div>
-      <div className="absolute top-10 right-10 z-50 flex gap-4">
+      <div className="absolute top-10 right-10 z-50 flex gap-4 mb-r-1">
         <button onClick={() => setSoundPlaying((state) => !state)}>
           {soundPlaying ? (
             <Image src="./icons/SoundIcon.svg" width={50} height={50} alt="sound icon" className="object-cover z-10" />
