@@ -57,11 +57,11 @@ const Welcome = ({ forwardRef, logoRef, subLogoRef }: { forwardRef: React.RefObj
   return (
     <>
       <div className="w-screen h-screen flex flex-col items-center justify-center around gap-4 z-50 absolute">
-        <div className="font-Rubik absolute top-40 right-[53%] translate-x-1/2 text-3xl z-10 opacity-50" ref={forwardRef}>
+        <div className="font-Rubik absolute top-40 right-[53%] translate-x-1/2 text-3xl z-10 opacity-50 w90 mob-wel-come" ref={forwardRef}>
           WELCOME TO THE
         </div>
       </div>
-      <div  className="z-50 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 mt-30" ref={logoRef}>
+      <div  className="z-50 absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 mt-30 w90" ref={logoRef}>
         <Image src="./logos/People+Logo.svg" alt="people+ logo" width={400} height={300} className="z-50 object-cover" />
       </div>
       
@@ -71,10 +71,11 @@ const Welcome = ({ forwardRef, logoRef, subLogoRef }: { forwardRef: React.RefObj
 
 const Detail = ({ forwardRef }: { forwardRef: React.RefObject<HTMLDivElement> }) => {
   return (
-    <div className="opacity-0 font-Rubik absolute bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 md:text-2xl text-2xl lg:text-4xl z-10 text-center" ref={forwardRef}>
+    <div className="opacity-0 font-Rubik absolute bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 md:text-2xl text-2xl lg:text-4xl z-10 text-center w90" ref={forwardRef}>
       We believe societal change starts with people - when motivated individuals are equipped with the right resources, they can transform their own
       lives and the societies they live in.
     </div>
+    
   );
 };
 
@@ -82,13 +83,14 @@ const BgImage = ({ forwardRef }: { forwardRef: React.RefObject<HTMLDivElement> }
   return (
     <div className="opacity-0" ref={forwardRef}>
       <Image
-        src="./images/Combined-01 1.png"
+        src="/images/Combined-01 1.png"
         alt="people+ logo"
         width={1200}
         height={300}
         className="object-cover absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
       />
     </div>
+    
   );
 };
 
@@ -105,7 +107,7 @@ const Enter = ({
     <div className="">
       <div
         ref={forwardRef}
-        className="opacity-0 font-Rubik absolute w-2/4 top-1/2 -translate-y-1/2  left-1/2 -translate-x-1/2 text-2xl md:text-2xl lg:text-4xl z-10 text-center"
+        className="opacity-0 font-Rubik absolute w-2/4 top-1/2 -translate-y-1/2  left-1/2 -translate-x-1/2 text-2xl md:text-2xl lg:text-4xl z-10 text-center w90"
       >
         In the next few minutes, we will meet a few everyday people who have been on extraordinary transformation journeys. We invite you to walk
         their paths with them and imagine how people-centric transformation, aided by technology can change the world.
