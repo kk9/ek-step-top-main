@@ -11,7 +11,7 @@ const Details = ({ category }: { category: Category }) => {
   return (
     <>
       {menuOpen && menuCategory === category.name && (
-        <div className="fixed inset-0 overflow-y-scroll w-screen top-0 left-0  h-auto p-20 pt-40 z-20 ">
+        <div className="fixed inset-0 overflow-y-scroll w-screen top-0 left-0  h-auto p-20 pt-40 z-20 mb-design">
           <div className="w-full h-full fixed top-0 left-0 -z-10 bg-brOverlay opacity-20"></div>
           <div className="w-full h-full z-10 static">
             <Suspense
@@ -28,10 +28,10 @@ const Details = ({ category }: { category: Category }) => {
                 height={1000}
                 className="w-full h-auto z-10 object-cover"
               />
-              <div className="w-full flex flex-col bg-[#7B4311] p-20 items-center justify-center">
+              <div className="w-full flex flex-col bg-[#7B4311] p-20 items-center justify-center mb-design ">
                 <div className="text-5xl text-white font-Rubik mb-20">EXPLORE</div>
 
-                <div className="grid grid-cols-2 p-10 w-full items-center justify-between gap-y-8 gap-x-16">
+                <div className="grid md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 p-10 w-full items-center justify-between gap-y-8 gap-x-16">
                   {
                     category.links.map((link, idx) => {
                       return(
