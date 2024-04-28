@@ -10,7 +10,7 @@ const About = () => {
   const toggleMenu = useCategoryStore((state) => state.toggleMenu);
   return (
     <div className="fixed top-0 left-0 overflow-y-scroll inset-0">
-      <div className="p-40 w-screen h-auto static bg-brOverlay bg-opacity-80 flex flex-col gap-4">
+      <div className="p-40 mb-design w-screen h-auto static bg-brOverlay bg-opacity-80 flex flex-col gap-4">
         <div className="opacity-80 text-[#ADA3A1] font-32 font-Rubik">ABOUT</div>
         <div>
           <div className="flex flex-col justify-center gap-1 ml--10">
